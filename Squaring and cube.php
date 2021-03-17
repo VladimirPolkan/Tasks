@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-
+//{background-color: pink;} Наверно цвет меняется только в .css((
 <h1>Возведение в квадрат и куб</h1>
 
     <?php
@@ -16,6 +16,6 @@
 }
 ?>
 
-<p><a href="Домашняя страница.html">Вернутся обратно</a></p>
+<p><a href="http://project3">Вернутся обратно</a></p>
 </body>
 </html>
