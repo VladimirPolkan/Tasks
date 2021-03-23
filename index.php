@@ -10,13 +10,15 @@
 <body>
 
 
-<h1>Задания2:</h1>
+<h1>Задания:</h1>
 
-<p><a href="http://project3/Data.php">Дата и время</a></p>
+<p><a href="Data.php">Дата и время</a></p>
 
-<p><a href="http://project3/Squaring%20and%20cube.php">Возведение в квадрат и куб</a></p>
+<p><a href="Squaring_and_cube.php">Возведение в квадрат и куб</a></p>
 
-<p><a href="http://project3/Fibonacci.php">Числа Фибоначчи:</a></p>
+<p><a href="Fibonacci.php">Числа Фибоначчи:</a></p>
+
+<p><a href="Vital3or4.php">Что получит Витя за четверть 3 или 4?</a></p>
 
 </body>
 </html>

@@ -10,11 +10,11 @@
 <body>
 <?php
 //echo "Hello World";
-$a=date("d,m,y" );
+$a = date("d,m,y");
 echo "Текущая дата: $a<br/>\n";
-$tm=date("h,i,s" );
+$tm = date("h,i,s");
 echo "Текущее время: $tm<br/>\n";
 ?>
-<p><a href="http://project3">Вернутся обратно</a></p>
+<p><a href="/">Вернутся обратно</a></p>
 </body>
 </html>
