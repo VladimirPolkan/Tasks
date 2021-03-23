@@ -12,23 +12,25 @@
 <h1>чего больше 3-ек или 4-ок:</h1>
 
 <p>
-    <a href="/">Wiki</a>
+    <a href="https://www.youtube.com/watch?v=ZmsXBwRy9DM&t=334s&ab_channel=ITDoctor">Чтение из файла и запись в файл на
+        PHP</a>
 </p>
 <?php
-for ($a = 1, $j = 0, $b = 0, $c = 1; $a <= 20; $b = $c + $j, $a++) {
-    echo "При $a позиции (j=$j) число (c=$c) фебоначчи равно" .
-        ($b) . "<br/>";
-    $j = $c;
-    $c = $b;
+$Hoepage = file_get_contents('input.txt');
+for ($a = 0, $j = 1, $b = 0; $j <= $Hoepage; $j++) {
+    if ($j % 2 == 0) {
+        $b++;
+    } else {
+        $a++;
+    }
+    echo "j=$j a=$a b=$b <br/>\n";
 }
-if ($a>$b) {
+if ($a > $b) {
     echo "Витя получит 3";
-}
-    else ($a<$b){
+} elseif ($a < $b) {
     echo "Витя получит 4";
-}
-    elseif ($a=$b){
-    echo "У Вити спорная ситуация";
+} else {
+    echo "У Вити 4, но с натяжкой";
 }
 ?>
 <p><a href="/">Вернутся обратно</a></p>
