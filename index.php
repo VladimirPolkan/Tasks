@@ -18,5 +18,7 @@
 
 <p><a href="Fibonacci.php">Числа Фибоначчи:</a></p>
 
+<p><a href="Vital3or4.php">Что получит Витя за четверть 3 или 4?</a></p>
+
 </body>
 </html>
