@@ -16,16 +16,22 @@
         PHP</a>
 </p>
 <p>
-    <a href="https:/https://qna.habr.com/q/555109">Как составить строку из значений нескольких переменных</a>
+    <a href="https://www.youtube.com/watch?v=roaWTekVYKA&ab_channel=%D0%9F%D1%80%D0%BEPHP">В этом уроке по PHP изучим
+        функции explode, которая разбивает строку
+        в массив по разделителю, и implode,
+        которая собирает строку в массив по разделителю</a>
 </p>
 <?php
-// $array = file_get_contents('input.txt');
-//echo '<pre>';
-//print_r($array);
-//echo '</pre>';
 
+$Homepage = file_get_contents('input.txt');
+$Homepage = trim($Homepage);
+echo $Homepage;
+echo "<br/>";
+$array = explode(' ', $Homepage);
+//Ниже варианты когда массивы задаются не в отдельном файле.txt ,
+//а прямо в коде
 //$array = [5, 4, 16, 19, 31, 2];
-$array = [8, 29, 4, 7, 12, 15, 17, 24, 1];
+//$array = [8, 29, 4, 7, 12, 15, 17, 24, 1];
 $s1 = "";
 $s2 = "";
 
